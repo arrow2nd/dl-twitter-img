@@ -4,6 +4,7 @@
 
 ## 使い方
 
-1. `twinit`でいい感じにツイートを収集して JSON にまとめる
-2. 画像なら `deno run -A main.js <ファイル名>`<br>動画なら `deno run -A main.js <ファイル名> --video`
-3. ひたすら待つ
+1. [twinit](https://github.com/twintproject/twint) でいい感じにツイートを収集して JSON にまとめる
+2. 画像なら `deno run -A main.js <ファイル名.json>`<br>動画なら `deno run -A main.js <ファイル名.json> --video`
+3. 待つ
+4. `out/ファイル名` 以下に保存される
