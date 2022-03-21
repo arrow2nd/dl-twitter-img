@@ -10,7 +10,8 @@
 
 ## 使い方
 
-1. [twinit](https://github.com/twintproject/twint) でいい感じにツイートを収集して JSON 形式 で出力
+1. [twint](https://github.com/twintproject/twint) でいい感じにツイートを収集して JSON 形式 で出力
 2. 画像なら `deno run -A main.js <ファイル名.json>`<br>動画なら `deno run -A main.js <ファイル名.json> --video`
 3. 待つ
 4. `out/ファイル名` 以下に保存される
+5. ﾔｯﾀｰ!
